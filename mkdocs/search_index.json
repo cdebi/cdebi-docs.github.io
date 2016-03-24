@@ -1,0 +1,49 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "C-DEBI\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#c-debi", 
+            "text": "For full documentation visit  mkdocs.org .", 
+            "title": "C-DEBI"
+        }, 
+        {
+            "location": "/#commands", 
+            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.", 
+            "title": "Commands"
+        }, 
+        {
+            "location": "/#project-layout", 
+            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
+            "title": "Project layout"
+        }, 
+        {
+            "location": "/about/", 
+            "text": "About\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nImage Test\n\n\nScreenshot\n\n\n\n\nTable Test\n\n\n\n\n\n\n\n\nFirst Header\n\n\nSecond Header\n\n\nThird Header\n\n\n\n\n\n\n\n\n\n\nContent Cell\n\n\nContent Cell\n\n\nContent Cell\n\n\n\n\n\n\nContent Cell\n\n\nContent Cell\n\n\nContent Cell\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFirst Header\n\n\nSecond Header\n\n\nThird Header\n\n\n\n\n\n\n\n\n\n\nLeft\n\n\nCenter\n\n\nRight\n\n\n\n\n\n\nLeft\n\n\nCenter\n\n\nRight\n\n\n\n\n\n\n\n\nCode Block\n\n\ndef fn():\n    pass", 
+            "title": "About"
+        }, 
+        {
+            "location": "/about/#about", 
+            "text": "For full documentation visit  mkdocs.org .", 
+            "title": "About"
+        }, 
+        {
+            "location": "/about/#image-test", 
+            "text": "Screenshot", 
+            "title": "Image Test"
+        }, 
+        {
+            "location": "/about/#table-test", 
+            "text": "First Header  Second Header  Third Header      Content Cell  Content Cell  Content Cell    Content Cell  Content Cell  Content Cell        First Header  Second Header  Third Header      Left  Center  Right    Left  Center  Right", 
+            "title": "Table Test"
+        }, 
+        {
+            "location": "/about/#code-block", 
+            "text": "def fn():\n    pass", 
+            "title": "Code Block"
+        }
+    ]
+}
