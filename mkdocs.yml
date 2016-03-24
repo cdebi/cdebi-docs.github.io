@@ -1,0 +1,14 @@
+site_name: C-DEBI
+pages:
+- Home: index.md
+- About: about.md
+theme: readthedocs
+extra_css:
+  - css/extra.css
+markdown_extensions:
+  - attr_list
+  - def_list
+  - nl2br
+  - toc:
+     permalink: True
+  - figureAltCaption
