@@ -1,10 +1,50 @@
 .wy-nav-content {
+  .comment, .caption {
+    font-size: 0.8rem !important;
+    line-height: 1.3 !important;
+  }
+  mark, .highlight {
+    background: rgba(181, 201, 172, 0.28);
+    font-weight: normal !important;
+    font-style: normal !important;
+  }
+  .del {
+    text-decoration: line-through !important;
+  }
+  .figure {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .image{
+      margin-bottom: .5rem;
+    }
+  }
+  table.list {
+    width: 100%;
+    tr {
+      width: 100%;
+      td{
+        vertical-align: top;
+        &:first-child {
+          width: 75px !important;
+          max-width: 75px !important;
+        }
+        &:nth-child(2) {
+          max-width: 375px !important;
+        }
+        &:last-child {
+          min-width: 200px !important;
+        }
+      }
+    }
+  }
   @media screen and (min-width: 1400px) {
-    figure {
+    .comment, .figure-wrapper {
       float: right;
       clear: right;
-      margin-right: -60%;
-      width: 50%;
+      margin-right: -48%;
+      width: 40%;
       margin-top: 0;
       margin-bottom: 0;
       font-size: 1.1rem;
@@ -12,9 +52,33 @@
       vertical-align: baseline;
       position: relative;
     }
+    .figure {
+      align-items: flex-start;
+    }
+    .comment {
+      &::before {
+        content: " ← ";
+      }
+    }
   }
-  figure {
-    margin-bottom: 24px;
-  }
+  @media screen and (max-width: 1400px) {
+    figure, .comment {
+      margin-bottom: 24px;
+    }
+    .comment {
+      margin-right: 10px;
+      background-color: rgba(204, 203, 117, 0.5);
 
+      &::after {
+        content: " ➞ ";
+      }
+    }
+  }
+}
+
+.toctree-l1.current {
+  ul > li:first-child {
+    display: none;
+    visibility: hidden;
+  }
 }

@@ -4,15 +4,47 @@
     
     <url>
      <loc>None/</loc>
-     <lastmod>2016-03-24</lastmod>
+     <lastmod>2016-03-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
 
     
     <url>
-     <loc>None/about/</loc>
-     <lastmod>2016-03-24</lastmod>
+     <loc>None/personnel/</loc>
+     <lastmod>2016-03-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/ethics/</loc>
+     <lastmod>2016-03-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/research-goals/</loc>
+     <lastmod>2016-03-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/research-themes/</loc>
+     <lastmod>2016-03-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/field-sites/</loc>
+     <lastmod>2016-03-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
