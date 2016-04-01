@@ -19,7 +19,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
 }
 /* line 19, ../sass/extra.scss */
 .wy-nav-content .figure .image {
@@ -50,9 +50,26 @@
 .wy-nav-content table.list tr td:last-child {
   min-width: 200px !important;
 }
+/* line 42, ../sass/extra.scss */
+.wy-nav-content h2 {
+  margin-top: 3.32em;
+  margin-bottom: 1.66em;
+}
+/* line 46, ../sass/extra.scss */
+.wy-nav-content h3 {
+  margin-top: 2.49em;
+}
+/* line 49, ../sass/extra.scss */
+.wy-nav-content h4 {
+  margin-top: 1.66em;
+}
+/* line 52, ../sass/extra.scss */
+.wy-nav-content .figure {
+  align-items: flex-start;
+}
 @media screen and (min-width: 1400px) {
-  /* line 43, ../sass/extra.scss */
-  .wy-nav-content .comment, .wy-nav-content .figure-wrapper {
+  /* line 56, ../sass/extra.scss */
+  .wy-nav-content .comment {
     float: right;
     clear: right;
     margin-right: -48%;
@@ -64,33 +81,82 @@
     vertical-align: baseline;
     position: relative;
   }
-  /* line 55, ../sass/extra.scss */
-  .wy-nav-content .figure {
-    align-items: flex-start;
-  }
-  /* line 59, ../sass/extra.scss */
+  /* line 69, ../sass/extra.scss */
   .wy-nav-content .comment::before {
     content: " ← ";
   }
 }
 @media screen and (max-width: 1400px) {
-  /* line 65, ../sass/extra.scss */
-  .wy-nav-content figure, .wy-nav-content .comment {
-    margin-bottom: 24px;
-  }
-  /* line 68, ../sass/extra.scss */
+  /* line 75, ../sass/extra.scss */
   .wy-nav-content .comment {
+    margin-bottom: 24px;
     margin-right: 10px;
     background-color: rgba(204, 203, 117, 0.5);
   }
-  /* line 72, ../sass/extra.scss */
+  /* line 80, ../sass/extra.scss */
   .wy-nav-content .comment::after {
     content: " ➞ ";
   }
 }
 
-/* line 80, ../sass/extra.scss */
+/* line 89, ../sass/extra.scss */
 .toctree-l1.current ul > li:first-child {
   display: none;
   visibility: hidden;
+}
+
+/* line 96, ../sass/extra.scss */
+.wy-menu-vertical .subnav .subnav span {
+  padding: 0.4045em 1.33em !important;
+}
+
+/* line 100, ../sass/extra.scss */
+.tag, .tag:hover, .tag:visited {
+  color: #373a3c;
+  background: #fcfcfc;
+  display: inline-block;
+  padding: .375rem 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid #e1e4e5;
+  border-radius: .25rem;
+  margin: 0;
+  margin-bottom: 24px;
+  margin-right: .5rem;
+  touch-action: manipulation;
+  text-transform: none;
+}
+
+/* line 124, ../sass/extra.scss */
+.tag:hover {
+  background: #e1e4e5;
+}
+
+/* line 127, ../sass/extra.scss */
+.also {
+  position: relative;
+  top: -12px;
+  margin-bottom: 12px;
+  color: #8f8e8e;
+  /*&:before {
+    content: "☛";
+    color: #cdcdcd;
+    margin-right: .5rem;
+    margin-left: -1.74rem;
+    font-size: 1.3rem;
+  }*/
+}
+
+/* line 146, ../sass/extra.scss */
+dl, dt {
+  width: 100%;
 }
