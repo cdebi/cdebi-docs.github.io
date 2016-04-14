@@ -4,7 +4,7 @@
     
     <url>
      <loc>None/</loc>
-     <lastmod>2016-03-31</lastmod>
+     <lastmod>2016-04-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -12,66 +12,20 @@
     
         
     <url>
-     <loc>None/research/research-goals/</loc>
-     <lastmod>2016-03-31</lastmod>
+     <loc>None/research/overview/</loc>
+     <lastmod>2016-04-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/research/research-themes/</loc>
-     <lastmod>2016-03-31</lastmod>
+     <lastmod>2016-04-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/research/research-sites/</loc>
-     <lastmod>2016-03-31</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/research/research-grants/</loc>
-     <lastmod>2016-03-31</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/research/research-fellowships/</loc>
-     <lastmod>2016-03-31</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/research/research-travel-exchange/</loc>
-     <lastmod>2016-03-31</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/research/bioinformatic-support/</loc>
-     <lastmod>2016-03-31</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    
-
-    
-        
-    <url>
-     <loc>None/education/goals/</loc>
-     <lastmod>2016-03-31</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/education/for-teachers/</loc>
-     <lastmod>2016-03-31</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/education/for-high-school-students/</loc>
-     <lastmod>2016-03-31</lastmod>
+     <loc>None/research/field-sites/</loc>
+     <lastmod>2016-04-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -86,74 +40,26 @@
     
         
     <url>
-     <loc>None/resources/publications/</loc>
-     <lastmod>2016-03-31</lastmod>
+     <loc>None/education/overview/</loc>
+     <lastmod>2016-04-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/resources/funded-projects/</loc>
-     <lastmod>2016-03-31</lastmod>
+     <loc>None/education/for-teachers/</loc>
+     <lastmod>2016-04-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/resources/facilities-equipment-technology/</loc>
-     <lastmod>2016-03-31</lastmod>
+     <loc>None/education/for-high-school-students/</loc>
+     <lastmod>2016-04-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/resources/meetings-workshops/</loc>
-     <lastmod>2016-03-31</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/resources/newsletters/</loc>
-     <lastmod>2016-03-31</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/resources/nss/</loc>
-     <lastmod>2016-03-31</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/resources/videos/</loc>
-     <lastmod>2016-03-31</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/resources/iodp-primer/</loc>
-     <lastmod>2016-03-31</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/resources/grant-programs-faq/</loc>
-     <lastmod>2016-03-31</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/resources/data/</loc>
-     <lastmod>2016-03-31</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/resources/ethics/</loc>
-     <lastmod>2016-03-31</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/resources/executive-documents/</loc>
-     <lastmod>2016-03-31</lastmod>
+     <loc>None</loc>
+     <lastmod></lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -162,29 +68,97 @@
     
         
     <url>
-     <loc>None/about/personnel/</loc>
-     <lastmod>2016-03-31</lastmod>
+     <loc>None/community/personnel/</loc>
+     <lastmod>2016-04-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/about/mailing/</loc>
-     <lastmod>2016-03-31</lastmod>
+     <loc>None/community/funded-projects/</loc>
+     <lastmod>2016-04-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/about/support/</loc>
-     <lastmod>2016-03-31</lastmod>
+     <loc>None/community/meetings-workshops/</loc>
+     <lastmod>2016-04-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/about/contact/</loc>
-     <lastmod>2016-03-31</lastmod>
+     <loc>None/community/nss/</loc>
+     <lastmod>2016-04-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
+    <url>
+     <loc>None/community/iodp-primer/</loc>
+     <lastmod>2016-04-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/community/mailing/</loc>
+     <lastmod>2016-04-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>None/resources/publications/</loc>
+     <lastmod>2016-04-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/resources/media/</loc>
+     <lastmod>2016-04-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/resources/facilities-equipment-technology/</loc>
+     <lastmod>2016-04-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/resources/data/</loc>
+     <lastmod>2016-04-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/resources/ethics/</loc>
+     <lastmod>2016-04-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/resources/executive-documents/</loc>
+     <lastmod>2016-04-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+    <url>
+     <loc>None/support/</loc>
+     <lastmod>2016-04-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/contact/</loc>
+     <lastmod>2016-04-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
     
 
 </urlset>

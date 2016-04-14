@@ -1,75 +1,83 @@
 @charset "UTF-8";
 /* line 2, ../sass/extra.scss */
-.wy-nav-content .comment, .wy-nav-content .caption {
+.wy-nav-content mark {
+  background: transparent !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  color: #404040 !important;
+}
+/* line 8, ../sass/extra.scss */
+.wy-nav-content .comment, .wy-nav-content mark, .wy-nav-content .caption {
   font-size: 0.8rem !important;
   line-height: 1.3 !important;
 }
-/* line 6, ../sass/extra.scss */
-.wy-nav-content mark, .wy-nav-content .highlight {
-  background: rgba(181, 201, 172, 0.28);
+/* line 12, ../sass/extra.scss */
+.wy-nav-content .highlight, .wy-nav-content ins {
+  background: rgba(181, 201, 172, 0.28) !important;
   font-weight: normal !important;
   font-style: normal !important;
+  color: #404040 !important;
 }
-/* line 11, ../sass/extra.scss */
+/* line 18, ../sass/extra.scss */
 .wy-nav-content .del {
   text-decoration: line-through !important;
 }
-/* line 14, ../sass/extra.scss */
+/* line 21, ../sass/extra.scss */
 .wy-nav-content .figure {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
-/* line 19, ../sass/extra.scss */
+/* line 26, ../sass/extra.scss */
 .wy-nav-content .figure .image {
   margin-bottom: .5rem;
 }
-/* line 23, ../sass/extra.scss */
+/* line 30, ../sass/extra.scss */
 .wy-nav-content table.list {
   width: 100%;
 }
-/* line 25, ../sass/extra.scss */
+/* line 32, ../sass/extra.scss */
 .wy-nav-content table.list tr {
   width: 100%;
 }
-/* line 27, ../sass/extra.scss */
+/* line 34, ../sass/extra.scss */
 .wy-nav-content table.list tr td {
   vertical-align: top;
 }
-/* line 29, ../sass/extra.scss */
+/* line 36, ../sass/extra.scss */
 .wy-nav-content table.list tr td:first-child {
   width: 75px !important;
   max-width: 75px !important;
 }
-/* line 33, ../sass/extra.scss */
+/* line 40, ../sass/extra.scss */
 .wy-nav-content table.list tr td:nth-child(2) {
   max-width: 375px !important;
 }
-/* line 36, ../sass/extra.scss */
+/* line 43, ../sass/extra.scss */
 .wy-nav-content table.list tr td:last-child {
   min-width: 200px !important;
 }
-/* line 42, ../sass/extra.scss */
+/* line 49, ../sass/extra.scss */
 .wy-nav-content h2 {
   margin-top: 3.32em;
   margin-bottom: 1.66em;
 }
-/* line 46, ../sass/extra.scss */
+/* line 53, ../sass/extra.scss */
 .wy-nav-content h3 {
   margin-top: 2.49em;
 }
-/* line 49, ../sass/extra.scss */
+/* line 56, ../sass/extra.scss */
 .wy-nav-content h4 {
   margin-top: 1.66em;
 }
-/* line 52, ../sass/extra.scss */
+/* line 59, ../sass/extra.scss */
 .wy-nav-content .figure {
   align-items: flex-start;
 }
 @media screen and (min-width: 1400px) {
-  /* line 56, ../sass/extra.scss */
-  .wy-nav-content .comment {
+  /* line 63, ../sass/extra.scss */
+  .wy-nav-content .comment, .wy-nav-content mark {
     float: right;
     clear: right;
     margin-right: -48%;
@@ -81,36 +89,36 @@
     vertical-align: baseline;
     position: relative;
   }
-  /* line 69, ../sass/extra.scss */
-  .wy-nav-content .comment::before {
+  /* line 76, ../sass/extra.scss */
+  .wy-nav-content .comment::before, .wy-nav-content mark::before {
     content: " ← ";
   }
 }
 @media screen and (max-width: 1400px) {
-  /* line 75, ../sass/extra.scss */
-  .wy-nav-content .comment {
+  /* line 82, ../sass/extra.scss */
+  .wy-nav-content .comment, .wy-nav-content mark {
     margin-bottom: 24px;
     margin-right: 10px;
     background-color: rgba(204, 203, 117, 0.5);
   }
-  /* line 80, ../sass/extra.scss */
-  .wy-nav-content .comment::after {
+  /* line 87, ../sass/extra.scss */
+  .wy-nav-content .comment::after, .wy-nav-content mark::after {
     content: " ➞ ";
   }
 }
 
-/* line 89, ../sass/extra.scss */
+/* line 96, ../sass/extra.scss */
 .toctree-l1.current ul > li:first-child {
   display: none;
   visibility: hidden;
 }
 
-/* line 96, ../sass/extra.scss */
+/* line 103, ../sass/extra.scss */
 .wy-menu-vertical .subnav .subnav span {
   padding: 0.4045em 1.33em !important;
 }
 
-/* line 100, ../sass/extra.scss */
+/* line 107, ../sass/extra.scss */
 .tag, .tag:hover, .tag:visited {
   color: #373a3c;
   background: #fcfcfc;
@@ -136,12 +144,12 @@
   text-transform: none;
 }
 
-/* line 124, ../sass/extra.scss */
+/* line 131, ../sass/extra.scss */
 .tag:hover {
   background: #e1e4e5;
 }
 
-/* line 127, ../sass/extra.scss */
+/* line 134, ../sass/extra.scss */
 .also {
   position: relative;
   top: -12px;
@@ -156,7 +164,7 @@
   }*/
 }
 
-/* line 146, ../sass/extra.scss */
+/* line 153, ../sass/extra.scss */
 dl, dt {
   width: 100%;
 }
