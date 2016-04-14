@@ -30,6 +30,12 @@
     </url>
         
     <url>
+     <loc>None/research/facilities-equipment-technology/</loc>
+     <lastmod>2016-04-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
      <loc>None</loc>
      <lastmod></lastmod>
      <changefreq>daily</changefreq>
@@ -63,18 +69,30 @@
      <changefreq>daily</changefreq>
     </url>
         
-    
-
-    
-        
     <url>
-     <loc>None/community/personnel/</loc>
+     <loc>None/education/for-graduates-and-postdocs/</loc>
      <lastmod>2016-04-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/community/funded-projects/</loc>
+     <loc>None/education/for-everyone/</loc>
+     <lastmod>2016-04-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/education/grants/</loc>
+     <lastmod>2016-04-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>None/community/people/</loc>
      <lastmod>2016-04-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -108,19 +126,13 @@
     
         
     <url>
-     <loc>None/resources/publications/</loc>
+     <loc>None/resources/scientific-publications/</loc>
      <lastmod>2016-04-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/resources/media/</loc>
-     <lastmod>2016-04-14</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/resources/facilities-equipment-technology/</loc>
+     <loc>None/resources/general-publications/</loc>
      <lastmod>2016-04-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -139,6 +151,12 @@
         
     <url>
      <loc>None/resources/executive-documents/</loc>
+     <lastmod>2016-04-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/resources/branded-resources/</loc>
      <lastmod>2016-04-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
